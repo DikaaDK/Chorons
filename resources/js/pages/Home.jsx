@@ -6,11 +6,11 @@ export default function Home() {
         <div className="px-4 pt-10 pb-24 max-w-3xl mx-auto bg-gradient-to-b from-emerald-50 to-white min-h-screen">
             <div className="text-center mb-10">
                 <div className="inline-block px-4 py-1 mb-3 rounded-full bg-emerald-100 text-emerald-700 text-sm font-medium">
-                    ✨ Selamat datang kembali
+                    Selamat datang
                 </div>
                 <h1 className="text-4xl font-extrabold text-emerald-700 tracking-tight">Chronos</h1>
                 <p className="text-gray-500 mt-2 text-sm sm:text-base">
-                    Catat cerita harianmu dengan tenang, simpan kenangan untuk masa depan 📓
+                    Catat cerita harianmu dengan tenang, simpan kenangan untuk masa depan
                 </p>
             </div>
             <div className="grid grid-cols-3 gap-4 mb-12">
@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <div>
                 <h2 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-                    📅 <span>Jurnal Terbaru</span>
+                    <span>Jurnal Terbaru</span>
                 </h2>
                 <div className="space-y-4">
                     {[1, 2, 3].map((i) => (
@@ -30,10 +30,10 @@ export default function Home() {
                         >
                             <div>
                                 <h3 className="font-semibold text-gray-800 group-hover:text-emerald-600 transition">
-                                    Catatan Hari ke-{i}
+                                    Catatan sigma ke-{i}
                                 </h3>
                                 <p className="text-sm text-gray-500 mt-1 line-clamp-1">
-                                    “Hari ini aku belajar sesuatu yang keren banget...”
+                                    “blablabla”
                                 </p>
                             </div>
                             <span className="text-xs text-gray-400 mt-1">10 Okt 2025</span>
